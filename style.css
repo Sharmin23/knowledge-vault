@@ -244,3 +244,35 @@ nav ul li a {
     align-items: start;
     gap: 8px;
 }
+#CTA{
+    width:85%;
+    background-color: #F7F6F2;
+    border-radius:12px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.CTA-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom:80px;
+}
+.CTA-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+.CTA-description{
+    font-size: 16px;
+    line-height:24px;
+    color: #627382;
+    text-align: center;
+}
+.CTA-sub{
+    font-size: 16px;
+    line-height:20px;
+    color: #627382;
+}
