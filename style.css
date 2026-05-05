@@ -134,6 +134,7 @@ nav ul li a {
     display: flex;
     gap: 20px;
 }
+/* featured styles */
 #feature{
  background-color: #30B868;
  background-color: aliceblue;
@@ -195,6 +196,7 @@ nav ul li a {
     color:#627382;
     text-align: center;
 }
+/* brain section */
 #brain{
     width:85%;
     margin: 0 auto;
@@ -244,6 +246,7 @@ nav ul li a {
     align-items: start;
     gap: 8px;
 }
+/* CTA section */
 #CTA{
     width:85%;
     background-color: #F7F6F2;
@@ -275,4 +278,54 @@ nav ul li a {
     font-size: 16px;
     line-height:20px;
     color: #627382;
+}
+/* Footer styles */
+.footer{
+    padding-top: 120px;
+    background-color: #001931;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 30px;
+    
+}
+.footer-container{
+    width: 85%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* gap: 100px; */
+}
+.social-link{
+    display: flex;
+    gap:10px;
+}
+.footer-img{
+     width: 130px;
+     height:70px;
+}
+
+.social-heading{
+    font-size:20px;
+    font-weight: 500;
+    line-height:28px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-bottom{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-bar{
+    color: #7a7878;
+    /* border:1px; */
+    /* padding: 0; */
+}
+
+.footer-bottom-des{
+    font-size: 16px;
+    line-height:24px;
+    color: #FFFFFF;
+    margin-top: 30px;
 }
