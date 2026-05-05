@@ -195,3 +195,52 @@ nav ul li a {
     color:#627382;
     text-align: center;
 }
+#brain{
+    width:85%;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.brain-image{
+    height: 600px;
+}
+.brain-container{
+    display: flex;
+    gap: 100px;
+}
+.solution-container{
+    padding-top:100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.solution-subheading{
+   font-size: 16px;
+   color:#30B868;
+   font-weight: 500;
+   line-height: 20px;
+   text-transform: uppercase;
+}
+.solution-heading{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+}
+.solution-description{
+    font-size:16px;
+    line-height: 20px;
+    color: #627382;
+}
+.inline-block{
+    display: inline;
+}
+.container-ceckbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.check-box{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
